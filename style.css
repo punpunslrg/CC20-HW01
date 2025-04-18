@@ -1,0 +1,59 @@
+.navbar {
+  background-color: navy;
+  padding: 16px;
+  text-align: center;
+}
+
+a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: start;
+  background-color: lightblue;
+}
+
+input,
+label {
+  display: block;
+}
+
+.container {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 600px;
+}
+
+p {
+  margin-top: 0;
+}
+
+input,
+select,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+textarea {
+  height: 320px;
+  resize: none;
+}
+
+.button {
+  display: inline-block;
+  width: auto;
+}
